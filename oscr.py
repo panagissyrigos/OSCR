@@ -27,7 +27,7 @@ if __name__=='__main__':
     if len(sys.argv) < 2:
         logging.info("using default file path")
     else:
-        fileplath = sys.argv[1]
+        filepath = sys.argv[1]
     
     if os.path.exists(filepath):
         logging.info("file exists")
